@@ -12,7 +12,8 @@
     </author>
 
     <access origin="*" />
-    <access origin="debug.phonegap.com" />
+    <access origin="http://debug.phonegap.com" />
+    <access origin="http://archive.rhizome.org" />
 
     <preference name="fullscreen" value="true" />
     <preference name="orientation" value="landscape" />
