@@ -827,6 +827,7 @@ function getIparades(loc, nthTry) {
                 setTargetMarkerInfoWindows(titles);
             },
             error : function(data) {
+              console.log(data);
               console.error("error in getIparades(" + loc.latitude + "," + loc.longitude + ")");
               tryAgain(loc, nthTry);
             }
