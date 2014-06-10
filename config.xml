@@ -18,6 +18,8 @@
 
     <icon src="icon.png" />
 
+    <gap:platform name="ios" />
+
     <gap:plugin name="org.apache.cordova.console" version="0.2.7" />
     <gap:plugin name="org.apache.cordova.device" version="0.2.8" />
     <gap:plugin name="org.apache.cordova.dialogs" version="0.2.6" />
