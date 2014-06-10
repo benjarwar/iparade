@@ -12,6 +12,7 @@
     </author>
 
     <access origin="*" />
+    <access origin="debug.phonegap.com" />
 
     <preference name="fullscreen" value="true" />
     <preference name="orientation" value="landscape" />
