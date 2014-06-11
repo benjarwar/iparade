@@ -16,7 +16,13 @@
     <access origin="http://archive.rhizome.org" />
 
     <preference name="fullscreen" value="true" />
-    <preference name="orientation" value="landscape" />
+
+    <gap:config-file platform="ios" parent="UISupportedInterfaceOrientations" overwrite="true">
+        <array>
+            <string>UIInterfaceOrientationLandscapeLeft</string>
+            <string>UIInterfaceOrientationLandscapeRight</string>
+        </array>
+    </gap:config-file>
 
     <icon src="icon.png" />
 
