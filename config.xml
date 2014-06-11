@@ -12,8 +12,8 @@
     </author>
 
     <access origin="*" />
-    <access origin="http://debug.phonegap.com" />
-    <access origin="http://archive.rhizome.org" />
+    <access origin="debug.phonegap.com" />
+    <access origin="archive.rhizome.org" />
 
     <preference name="fullscreen" value="true" />
 
