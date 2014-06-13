@@ -28,7 +28,7 @@ function playVideo() {
 
             var html = "";
             html = html + "<video id='playVid' controls='controls' autoplay='autoplay' >";
-            html = html + "<source src='" + localContentDir + localVidBase + vidExt + "' type='video/mp4' /></video>";
+            html = html + "<source src='/iParade/" + localVidBase + vidExt + "' type='video/mp4' /></video>";
 
             $("#playVideoButton").html(html);
         }
